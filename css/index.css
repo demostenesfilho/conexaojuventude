@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+   background-color:#6c5ce7;
+   font-family: 'Roboto', sans-serif;
+}
+
+.conteudo {
+    margin: 0px auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 100px;
+    flex-direction: column;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.cardjovem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/jovem.png");
+    border-radius: 10px;
+    padding: 50px auto;
+    color: #f2c81f;
+    margin: 0px auto;
+    width: 300px;
+    height: 300px;
+    font-size: 22px;
+    border: none;
+    text-shadow: 0px 0px 10px black;
+    font-weight: bold;
+}
+
+.cardempresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/empresa.png");
+    border-radius: 10px;
+    padding: 50px auto;
+    color: #f2c81f;
+    margin: 0px auto;
+    width: 300px;
+    height: 300px;
+    font-size: 22px;
+    border: none;
+    text-shadow: 0px 0px 10px black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .conteudo {
+        margin-top:100px 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .cardjovem {
+        margin-bottom: 20px;
+    }
+
+    .cardempresa {
+        margin-bottom: 20px;
+    }
+}
